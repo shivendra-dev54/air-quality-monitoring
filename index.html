@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Air Quality Monitor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Air Quality Monitor</h1>
+        <select id="city">
+            <!-- Major cities in Maharashtra -->
+            <option value="Mumbai">Mumbai</option>
+            <option value="Pune">Pune</option>
+            <option value="Nagpur">Nagpur</option>
+            <option value="Nashik">Nashik</option>
+            <option value="Aurangabad">Aurangabad</option>
+            <option value="Solapur">Solapur</option>
+            <option value="Thane">Thane</option>
+            <option value="Navi Mumbai">Navi Mumbai</option>
+            <option value="Amravati">Amravati</option>
+            <option value="Kolhapur">Kolhapur</option>
+            <option value="Sangli">Sangli</option>
+            <option value="Jalgaon">Jalgaon</option>
+            <option value="Ahmednagar">Ahmednagar</option>
+            <option value="Satara">Satara</option>
+            <option value="Ratnagiri">Ratnagiri</option>
+            <option value="Latur">Latur</option>
+            <option value="Chandrapur">Chandrapur</option>
+        
+            <!-- Specific areas in Pune -->
+            <option value="Hinjewadi, Pune">Hinjewadi, Pune</option>
+            <option value="Shivajinagar, Pune">Shivajinagar, Pune</option>
+            <option value="Kothrud, Pune">Kothrud, Pune</option>
+            <option value="Wakad, Pune">Wakad, Pune</option>
+            <option value="Viman Nagar, Pune">Viman Nagar, Pune</option>
+            <option value="Hadapsar, Pune">Hadapsar, Pune</option>
+            <option value="Kharadi, Pune">Kharadi, Pune</option>
+            <option value="Baner, Pune">Baner, Pune</option>
+        
+            <!-- Other major cities in India -->
+            <option value="Delhi">Delhi</option>
+            <option value="Bangalore">Bangalore</option>
+            <option value="Kolkata">Kolkata</option>
+            <option value="Chennai">Chennai</option>
+        </select>
+        
+        <button onclick="fetchAirQuality()">Get Air Quality</button>
+        <p id="aqi">Select a city and click the button to fetch air quality data</p>
+    </div>
+
+    <div class="rating-strip">
+        <div class="rating-box good">Good</div>
+        <div class="rating-box fair">Fair</div>
+        <div class="rating-box moderate">Moderate</div>
+        <div class="rating-box poor">Poor</div>
+        <div class="rating-box very-poor">Very Poor</div>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
