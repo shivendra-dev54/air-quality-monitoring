@@ -12,7 +12,7 @@ const cityCoordinates = {
     "Kolhapur": { lat: 16.7050, lon: 74.2433 },
     "Sangli": { lat: 16.8524, lon: 74.5815 },
     "Jalgaon": { lat: 21.0077, lon: 75.5626 },
-    "Ahmednagar": { lat: 19.0948, lon: 74.7480 },
+    "AhilyaNagar": { lat: 19.0948, lon: 74.7480 },
     "Satara": { lat: 17.6805, lon: 74.0183 },
     "Ratnagiri": { lat: 16.9944, lon: 73.3000 },
     "Latur": { lat: 18.4088, lon: 76.5604 },
